@@ -57,7 +57,7 @@ vapp = new Vue({
     showForeGrip: false,
     showLowST: false,
     showHighST: true,
-    showARCnFH: false,
+    showARCnFH: true,
     showARSuppressor: true,
     showARExtended: false,
     showARStock: false,
@@ -67,11 +67,11 @@ vapp = new Vue({
     showSRStock: false,
     showM16A4: true,
     showSCAR: true,
-    showAK47: false,
+    showAK47: true,
     showHK416: true,
     showPan: true,
-    showMini14: false,
-    showSKS: false,
+    showMini14: true,
+    showSKS: true,
     showKar98k: true,
 
     // --------------------------------------------------------------------------
@@ -259,7 +259,7 @@ function getMapSource (mapType) {
 
 const view = new ol.View({
   center: [4096, 4096],
-  zoom: 3,
+  zoom: 6,
   minZoom: 1,
   maxZoom: 7,
   projection: projection
